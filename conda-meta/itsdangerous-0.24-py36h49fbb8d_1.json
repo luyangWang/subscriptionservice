@@ -1,0 +1,91 @@
+{
+  "arch": "x86_64",
+  "build": "py36h49fbb8d_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/luyangwang/anaconda3/pkgs/itsdangerous-0.24-py36h49fbb8d_1",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/itsdangerous.cpython-36.pyc",
+    "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/itsdangerous.py"
+  ],
+  "fn": "itsdangerous-0.24-py36h49fbb8d_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/luyangwang/anaconda3/pkgs/itsdangerous-0.24-py36h49fbb8d_1",
+    "type": 1
+  },
+  "md5": "113976dd6e039096bd1cc74ac7ef47e7",
+  "name": "itsdangerous",
+  "package_tarball_full_path": "/Users/luyangwang/anaconda3/pkgs/itsdangerous-0.24-py36h49fbb8d_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/itsdangerous.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a23473263860ae81026ae7c3f15ddce026774f7d0ed18f38562e93217a1c7c6f",
+        "sha256_in_prefix": "a23473263860ae81026ae7c3f15ddce026774f7d0ed18f38562e93217a1c7c6f",
+        "size_in_bytes": 29295
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a3f194e806fc17369411692d382753470ff75b5b5fb58daaf6faacd61a4ab8a2",
+        "sha256_in_prefix": "a3f194e806fc17369411692d382753470ff75b5b5fb58daaf6faacd61a4ab8a2",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "60d60419d884b0e8e4607ecfdda99d04e98a8de7e53c2951123d60788efeddb3",
+        "sha256_in_prefix": "60d60419d884b0e8e4607ecfdda99d04e98a8de7e53c2951123d60788efeddb3",
+        "size_in_bytes": 579
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous-0.24-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "80a37538a2e4f358bb7db5968a574903cf0443d3619c6312bd9aa17f3f480a39",
+        "sha256_in_prefix": "80a37538a2e4f358bb7db5968a574903cf0443d3619c6312bd9aa17f3f480a39",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.6/site-packages/itsdangerous.py",
+        "path_type": "hardlink",
+        "sha256": "97bbbaa2a21ea4496560347b8519a813bcf8ed1cbabed14217a1006c9b7e8a52",
+        "sha256_in_prefix": "97bbbaa2a21ea4496560347b8519a813bcf8ed1cbabed14217a1006c9b7e8a52",
+        "size_in_bytes": 31840
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 20884,
+  "subdir": "osx-64",
+  "timestamp": 1505301342576,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/itsdangerous-0.24-py36h49fbb8d_1.tar.bz2",
+  "version": "0.24"
+}

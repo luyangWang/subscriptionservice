@@ -1,0 +1,619 @@
+{
+  "arch": "x86_64",
+  "build": "py36hde0549a_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/luyangwang/anaconda3/pkgs/py4j-0.10.6-py36hde0549a_1",
+  "files": [
+    "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/py4j/__init__.py",
+    "lib/python3.6/site-packages/py4j/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/backport.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/clientserver.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/finalizer.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/java_collections.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/java_gateway.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/protocol.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/signals.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/backport.py",
+    "lib/python3.6/site-packages/py4j/clientserver.py",
+    "lib/python3.6/site-packages/py4j/compat.py",
+    "lib/python3.6/site-packages/py4j/finalizer.py",
+    "lib/python3.6/site-packages/py4j/java_collections.py",
+    "lib/python3.6/site-packages/py4j/java_gateway.py",
+    "lib/python3.6/site-packages/py4j/protocol.py",
+    "lib/python3.6/site-packages/py4j/signals.py",
+    "lib/python3.6/site-packages/py4j/tests/__init__.py",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/benchmark1.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/byte_string_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/client_server_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/finalizer_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/instrumented.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_array_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_callback_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_dir_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_gateway_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_help_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_list_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_map_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_set_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/java_tls_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/memory_leak_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/multithreadtest.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_example.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_example2.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_listener_example.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_recursive_example.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_example.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_signals_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/__pycache__/signals_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/py4j/tests/benchmark1.py",
+    "lib/python3.6/site-packages/py4j/tests/byte_string_test.py",
+    "lib/python3.6/site-packages/py4j/tests/client_server_test.py",
+    "lib/python3.6/site-packages/py4j/tests/finalizer_test.py",
+    "lib/python3.6/site-packages/py4j/tests/instrumented.py",
+    "lib/python3.6/site-packages/py4j/tests/java_array_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_callback_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_dir_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_gateway_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_help_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_list_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_map_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_set_test.py",
+    "lib/python3.6/site-packages/py4j/tests/java_tls_test.py",
+    "lib/python3.6/site-packages/py4j/tests/memory_leak_test.py",
+    "lib/python3.6/site-packages/py4j/tests/multithreadtest.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_callback_example.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_callback_example2.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_callback_listener_example.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_callback_recursive_example.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_example.py",
+    "lib/python3.6/site-packages/py4j/tests/py4j_signals_test.py",
+    "lib/python3.6/site-packages/py4j/tests/signals_test.py",
+    "lib/python3.6/site-packages/py4j/version.py",
+    "share/py4j/py4j0.10.6.jar"
+  ],
+  "fn": "py4j-0.10.6-py36hde0549a_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/luyangwang/anaconda3/pkgs/py4j-0.10.6-py36hde0549a_1",
+    "type": 1
+  },
+  "md5": "bdbb839069e65205ade09df281e4641c",
+  "name": "py4j",
+  "package_tarball_full_path": "/Users/luyangwang/anaconda3/pkgs/py4j-0.10.6-py36hde0549a_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "be9b508957cc182c0b282f22b57a30fece7ac9b9924d3a6eb465385da1bfb7f4",
+        "sha256_in_prefix": "be9b508957cc182c0b282f22b57a30fece7ac9b9924d3a6eb465385da1bfb7f4",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "8eb12ca128bc57b4a8b002accd21b8ae629d7ad8b0ca0cdee19b5011d6184db3",
+        "sha256_in_prefix": "8eb12ca128bc57b4a8b002accd21b8ae629d7ad8b0ca0cdee19b5011d6184db3",
+        "size_in_bytes": 11400
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j-0.10.6-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3a27edd0380730450ee253aff8b1dd82443ca43e0afa879c52780a078c31efc2",
+        "sha256_in_prefix": "3a27edd0380730450ee253aff8b1dd82443ca43e0afa879c52780a078c31efc2",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "310e023bede5377c068b2257df325cca4218aa205b604ccfacb9860f27172eef",
+        "sha256_in_prefix": "310e023bede5377c068b2257df325cca4218aa205b604ccfacb9860f27172eef",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "11d6aa0e2584b236b34c5e2e3f83bbdcfc14dbb057a08fb15ba21a76c41fcf9c",
+        "sha256_in_prefix": "11d6aa0e2584b236b34c5e2e3f83bbdcfc14dbb057a08fb15ba21a76c41fcf9c",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/backport.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "952806ba24fe44fe1d884821084ab75f37a2641dac05ea23d2c452a60183476a",
+        "sha256_in_prefix": "952806ba24fe44fe1d884821084ab75f37a2641dac05ea23d2c452a60183476a",
+        "size_in_bytes": 8230
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/clientserver.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "590d669a6aef92fb005459667ecd80013e6f9c0eeded35c974095156f539dcb0",
+        "sha256_in_prefix": "590d669a6aef92fb005459667ecd80013e6f9c0eeded35c974095156f539dcb0",
+        "size_in_bytes": 20953
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7b1d1a79c2b75c3976d29bac64d6571830f78bd59921db6fab1218adc8e083c",
+        "sha256_in_prefix": "a7b1d1a79c2b75c3976d29bac64d6571830f78bd59921db6fab1218adc8e083c",
+        "size_in_bytes": 3447
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/finalizer.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ba4aad98c54a21e02eeef9adcf205b82fc3ac5e1eea80f3b676368d8ff532c2",
+        "sha256_in_prefix": "7ba4aad98c54a21e02eeef9adcf205b82fc3ac5e1eea80f3b676368d8ff532c2",
+        "size_in_bytes": 4823
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/java_collections.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c12887322536ad1a2ad16fdddf15b0496f17012200c3d49f0c8b737c44069f3",
+        "sha256_in_prefix": "7c12887322536ad1a2ad16fdddf15b0496f17012200c3d49f0c8b737c44069f3",
+        "size_in_bytes": 19339
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/java_gateway.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "989b9ca974127104c9b5dfb3359c9cf6abcf65c5b3b89170c385c61a82250d88",
+        "sha256_in_prefix": "989b9ca974127104c9b5dfb3359c9cf6abcf65c5b3b89170c385c61a82250d88",
+        "size_in_bytes": 70997
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/protocol.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "56cdca716ceaf6e9d263bf81bd3d4c4ab15a7462a3f0a23c2cdb9b6a6ef9d8c2",
+        "sha256_in_prefix": "56cdca716ceaf6e9d263bf81bd3d4c4ab15a7462a3f0a23c2cdb9b6a6ef9d8c2",
+        "size_in_bytes": 13176
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/signals.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "34f75f0b4cb2cb75bdcf0ab49df643d6bf34cd84267904580873ea072a350925",
+        "sha256_in_prefix": "34f75f0b4cb2cb75bdcf0ab49df643d6bf34cd84267904580873ea072a350925",
+        "size_in_bytes": 4230
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc6285653a6a48bd48b74904e54eecdc27ff3b713cb6f16a24458efd9b667049",
+        "sha256_in_prefix": "dc6285653a6a48bd48b74904e54eecdc27ff3b713cb6f16a24458efd9b667049",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/backport.py",
+        "path_type": "hardlink",
+        "sha256": "8b89d9f1e08927b4f400f4d17215d77c19a9f177a9c8ba661a9db6c3dc8ccba1",
+        "sha256_in_prefix": "8b89d9f1e08927b4f400f4d17215d77c19a9f177a9c8ba661a9db6c3dc8ccba1",
+        "size_in_bytes": 6670
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/clientserver.py",
+        "path_type": "hardlink",
+        "sha256": "d74de0235c3dd1c1dcc10660c20ad77ee6764aa7a3734ebd10945a284447d9aa",
+        "sha256_in_prefix": "d74de0235c3dd1c1dcc10660c20ad77ee6764aa7a3734ebd10945a284447d9aa",
+        "size_in_bytes": 24190
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/compat.py",
+        "path_type": "hardlink",
+        "sha256": "a0142a4d3689dcd5f810bd3606310764a338aa3fdcc51441429987da2663cf9f",
+        "sha256_in_prefix": "a0142a4d3689dcd5f810bd3606310764a338aa3fdcc51441429987da2663cf9f",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/finalizer.py",
+        "path_type": "hardlink",
+        "sha256": "f25aca1810174eae9f8c0d36cc6667f2e3afe12050c16c94ac0e330e57ec384c",
+        "sha256_in_prefix": "f25aca1810174eae9f8c0d36cc6667f2e3afe12050c16c94ac0e330e57ec384c",
+        "size_in_bytes": 4306
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/java_collections.py",
+        "path_type": "hardlink",
+        "sha256": "884383e17c47bd738929eec3ad3da1010a0600e2dadb31861ff156220d17e026",
+        "sha256_in_prefix": "884383e17c47bd738929eec3ad3da1010a0600e2dadb31861ff156220d17e026",
+        "size_in_bytes": 17922
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/java_gateway.py",
+        "path_type": "hardlink",
+        "sha256": "c3a09a47baa148a9ecb6c38184824e8d8f343060f392482702490e7ca8f4f43b",
+        "sha256_in_prefix": "c3a09a47baa148a9ecb6c38184824e8d8f343060f392482702490e7ca8f4f43b",
+        "size_in_bytes": 88877
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "dc6798c5d59c10de25d36f80b36c9bd70d5398c485daff3c10edb1cbd9c97ce5",
+        "sha256_in_prefix": "dc6798c5d59c10de25d36f80b36c9bd70d5398c485daff3c10edb1cbd9c97ce5",
+        "size_in_bytes": 13105
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/signals.py",
+        "path_type": "hardlink",
+        "sha256": "fa7aee46a9e449128cacf26e54bddbcd7283f2420bf71a462f7eb153d411eedd",
+        "sha256_in_prefix": "fa7aee46a9e449128cacf26e54bddbcd7283f2420bf71a462f7eb153d411eedd",
+        "size_in_bytes": 4360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "74a086514ccd48ff6023a9e822975fd4dcd7549ec215e465993c26b426d5e84e",
+        "sha256_in_prefix": "74a086514ccd48ff6023a9e822975fd4dcd7549ec215e465993c26b426d5e84e",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "cce36a5b7da170c4f5cd8dd0d2d95eaf9aeec8a1f1d64d69675f9d7dd06a68f4",
+        "sha256_in_prefix": "cce36a5b7da170c4f5cd8dd0d2d95eaf9aeec8a1f1d64d69675f9d7dd06a68f4",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/benchmark1.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0238cbce12bb38263fd9a18637188c7b03cfab636774c053945cb550a5080ab",
+        "sha256_in_prefix": "e0238cbce12bb38263fd9a18637188c7b03cfab636774c053945cb550a5080ab",
+        "size_in_bytes": 3874
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/byte_string_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7692a76bf23cbc6510c816e8ca1d3e8c00d69f3d0de0e4faee0f8b0d206789d1",
+        "sha256_in_prefix": "7692a76bf23cbc6510c816e8ca1d3e8c00d69f3d0de0e4faee0f8b0d206789d1",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/client_server_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "44540cc58b115efbd70bb8d479542e17724c9c71bb52d4694592853b4961f431",
+        "sha256_in_prefix": "44540cc58b115efbd70bb8d479542e17724c9c71bb52d4694592853b4961f431",
+        "size_in_bytes": 15368
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/finalizer_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "970fda838f662f3d26cb866da2f10c2aa69e93586e48ed5d689485a6b7eccbe2",
+        "sha256_in_prefix": "970fda838f662f3d26cb866da2f10c2aa69e93586e48ed5d689485a6b7eccbe2",
+        "size_in_bytes": 6323
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/instrumented.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "97bc2a7940575d12b1e6317fde255934910641752da7831d8789a3a9ff7dc9ea",
+        "sha256_in_prefix": "97bc2a7940575d12b1e6317fde255934910641752da7831d8789a3a9ff7dc9ea",
+        "size_in_bytes": 7260
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_array_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6f40ca6ceb9b2284be699cec51156abf59400737f14496b58445974c93defc8",
+        "sha256_in_prefix": "c6f40ca6ceb9b2284be699cec51156abf59400737f14496b58445974c93defc8",
+        "size_in_bytes": 2646
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_callback_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5421ca686ec00d5409e1c4b088a6697cf5f38d34934c04b7b868b069136dff53",
+        "sha256_in_prefix": "5421ca686ec00d5409e1c4b088a6697cf5f38d34934c04b7b868b069136dff53",
+        "size_in_bytes": 17728
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_dir_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e3ae88c3561ce4ccddc45f93f11ccb184d5fb16cddbac3f8717cf73471e67c2",
+        "sha256_in_prefix": "7e3ae88c3561ce4ccddc45f93f11ccb184d5fb16cddbac3f8717cf73471e67c2",
+        "size_in_bytes": 4087
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_gateway_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "77210d40dd651dd805419c7261c3175a137344a6ee9297f3bdd80d3a6d1b6ba7",
+        "sha256_in_prefix": "77210d40dd651dd805419c7261c3175a137344a6ee9297f3bdd80d3a6d1b6ba7",
+        "size_in_bytes": 42695
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_help_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "badb7bfc22534bd891aec583c3178dce4c6753375dd68d79689d6a2af8c6cb7d",
+        "sha256_in_prefix": "badb7bfc22534bd891aec583c3178dce4c6753375dd68d79689d6a2af8c6cb7d",
+        "size_in_bytes": 3197
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_list_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "932bb7a0e754571419367090fada80c2de9b47426a26e334624c5f24a837acc1",
+        "sha256_in_prefix": "932bb7a0e754571419367090fada80c2de9b47426a26e334624c5f24a837acc1",
+        "size_in_bytes": 8336
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_map_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "06fff03d6ed60ffc4e0d0aef64a34bdc43b01f625bd4bde0ccfa322a312461d6",
+        "sha256_in_prefix": "06fff03d6ed60ffc4e0d0aef64a34bdc43b01f625bd4bde0ccfa322a312461d6",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_set_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdeefdd80f98cea37b2df6d7c6b914b9cd1543c3992ea125bdb8736680c3ae70",
+        "sha256_in_prefix": "bdeefdd80f98cea37b2df6d7c6b914b9cd1543c3992ea125bdb8736680c3ae70",
+        "size_in_bytes": 2999
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/java_tls_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "af2dbeab11d460c25b48a297f118933e7f1fd110fcddbb0db7945614259c6787",
+        "sha256_in_prefix": "af2dbeab11d460c25b48a297f118933e7f1fd110fcddbb0db7945614259c6787",
+        "size_in_bytes": 3338
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/memory_leak_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f80366d9c4e4d0820c1ffb1abcc37584ee4c23005a5836501ff507e2bc7f1d2",
+        "sha256_in_prefix": "8f80366d9c4e4d0820c1ffb1abcc37584ee4c23005a5836501ff507e2bc7f1d2",
+        "size_in_bytes": 18308
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/multithreadtest.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4881cff546d9146f805e9acdd31760fa318f9a8560b1f6e8e334903d7cab628",
+        "sha256_in_prefix": "a4881cff546d9146f805e9acdd31760fa318f9a8560b1f6e8e334903d7cab628",
+        "size_in_bytes": 4898
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_example.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "70e451bb987a24daeefdbc01564d2ca872b54d9d55968ff0ebfae2be04dae945",
+        "sha256_in_prefix": "70e451bb987a24daeefdbc01564d2ca872b54d9d55968ff0ebfae2be04dae945",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_example2.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3e0b62c2db9833849832ed584671b90567eb060ab49d2e0677a1865945865e6",
+        "sha256_in_prefix": "f3e0b62c2db9833849832ed584671b90567eb060ab49d2e0677a1865945865e6",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_listener_example.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "674a6cbcd7aca2bdcebeaa7c915a1acbfba4d1b1c87d71dbff694c793bebfaff",
+        "sha256_in_prefix": "674a6cbcd7aca2bdcebeaa7c915a1acbfba4d1b1c87d71dbff694c793bebfaff",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_callback_recursive_example.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c4fedb60cdeebc8f14a59a082aef2ce9756c3481339c32441ea66ec24c29768",
+        "sha256_in_prefix": "3c4fedb60cdeebc8f14a59a082aef2ce9756c3481339c32441ea66ec24c29768",
+        "size_in_bytes": 3673
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_example.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "56b71a5020615ab6ef66a6bc0ca6bfede3134e8b26736cd6433051139f627812",
+        "sha256_in_prefix": "56b71a5020615ab6ef66a6bc0ca6bfede3134e8b26736cd6433051139f627812",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/py4j_signals_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "352f172807e9df93044f84d55a79db05884fea780f4b697f0930be8f374e8713",
+        "sha256_in_prefix": "352f172807e9df93044f84d55a79db05884fea780f4b697f0930be8f374e8713",
+        "size_in_bytes": 5102
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/__pycache__/signals_test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d654948c0935e74d1f41dcea48dc67b98fd0a1053c2cd4c1fb829f3bc5df36f",
+        "sha256_in_prefix": "3d654948c0935e74d1f41dcea48dc67b98fd0a1053c2cd4c1fb829f3bc5df36f",
+        "size_in_bytes": 3305
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/benchmark1.py",
+        "path_type": "hardlink",
+        "sha256": "dde2a449aa93d360500c45736bae8e2bce28575bc0f7c7677afaa819c949d993",
+        "sha256_in_prefix": "dde2a449aa93d360500c45736bae8e2bce28575bc0f7c7677afaa819c949d993",
+        "size_in_bytes": 3946
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/byte_string_test.py",
+        "path_type": "hardlink",
+        "sha256": "3dfb4c53e7fc37541a2a67b3781dddf289e2930173fdd9ee2515dfb20bff3556",
+        "sha256_in_prefix": "3dfb4c53e7fc37541a2a67b3781dddf289e2930173fdd9ee2515dfb20bff3556",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/client_server_test.py",
+        "path_type": "hardlink",
+        "sha256": "be3ca9f32ca070adeb6308a9923cb20b1105711bea45487703036f4c94fe6949",
+        "sha256_in_prefix": "be3ca9f32ca070adeb6308a9923cb20b1105711bea45487703036f4c94fe6949",
+        "size_in_bytes": 23783
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/finalizer_test.py",
+        "path_type": "hardlink",
+        "sha256": "1c2ee48c7b2a38e744876383585c54f23f32f8f451782f268ac47617870236dc",
+        "sha256_in_prefix": "1c2ee48c7b2a38e744876383585c54f23f32f8f451782f268ac47617870236dc",
+        "size_in_bytes": 4439
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/instrumented.py",
+        "path_type": "hardlink",
+        "sha256": "1505e6fdf4b463e07ef5e3d5eec92849ef96fe9cb338cbcd12898285af596c26",
+        "sha256_in_prefix": "1505e6fdf4b463e07ef5e3d5eec92849ef96fe9cb338cbcd12898285af596c26",
+        "size_in_bytes": 5570
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_array_test.py",
+        "path_type": "hardlink",
+        "sha256": "80a90a72cb847e89a4d82f2e6924c5c91f1a2dd251e7fe73992b402082bb9346",
+        "sha256_in_prefix": "80a90a72cb847e89a4d82f2e6924c5c91f1a2dd251e7fe73992b402082bb9346",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_callback_test.py",
+        "path_type": "hardlink",
+        "sha256": "77429a365304ee8ac919824e5bc41eaf25173473c92108b7e59c00caada4d0ec",
+        "sha256_in_prefix": "77429a365304ee8ac919824e5bc41eaf25173473c92108b7e59c00caada4d0ec",
+        "size_in_bytes": 14576
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_dir_test.py",
+        "path_type": "hardlink",
+        "sha256": "676325468c5bd077fe9a06aed40eab701d93da9bf72852fa5875993a1592de8e",
+        "sha256_in_prefix": "676325468c5bd077fe9a06aed40eab701d93da9bf72852fa5875993a1592de8e",
+        "size_in_bytes": 4659
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_gateway_test.py",
+        "path_type": "hardlink",
+        "sha256": "dbbfab740eba0df11e72bed6e31af1e87bcd447ab6a94cb2df2811b6b47c84de",
+        "sha256_in_prefix": "dbbfab740eba0df11e72bed6e31af1e87bcd447ab6a94cb2df2811b6b47c84de",
+        "size_in_bytes": 43566
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_help_test.py",
+        "path_type": "hardlink",
+        "sha256": "400a0f3c64ff5cf8d6dc4b0293b65c2ab2e1375778799403d4a433a956b644eb",
+        "sha256_in_prefix": "400a0f3c64ff5cf8d6dc4b0293b65c2ab2e1375778799403d4a433a956b644eb",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_list_test.py",
+        "path_type": "hardlink",
+        "sha256": "fb250ea33328fee6ed3f8f53ad9827d417b0da2cc2af679bce295fc4622c6777",
+        "sha256_in_prefix": "fb250ea33328fee6ed3f8f53ad9827d417b0da2cc2af679bce295fc4622c6777",
+        "size_in_bytes": 10457
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_map_test.py",
+        "path_type": "hardlink",
+        "sha256": "0c99359235ca885c57a765241792bf493eeb23c4b31668fd32ed281b1c31110c",
+        "sha256_in_prefix": "0c99359235ca885c57a765241792bf493eeb23c4b31668fd32ed281b1c31110c",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_set_test.py",
+        "path_type": "hardlink",
+        "sha256": "e199617315cb02d60965ba2922e6afd642d3306c9d0fee8fe4a229c1e4026ef5",
+        "sha256_in_prefix": "e199617315cb02d60965ba2922e6afd642d3306c9d0fee8fe4a229c1e4026ef5",
+        "size_in_bytes": 3061
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/java_tls_test.py",
+        "path_type": "hardlink",
+        "sha256": "742f4ac571d6afd375307666b809ca62ab279f4b6f41800c7eb88d4d4523b4ef",
+        "sha256_in_prefix": "742f4ac571d6afd375307666b809ca62ab279f4b6f41800c7eb88d4d4523b4ef",
+        "size_in_bytes": 3120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/memory_leak_test.py",
+        "path_type": "hardlink",
+        "sha256": "156bc4c54dc13f6cdc897851b3d78a7e5b6e44a980b754d75f987ff53ba3c697",
+        "sha256_in_prefix": "156bc4c54dc13f6cdc897851b3d78a7e5b6e44a980b754d75f987ff53ba3c697",
+        "size_in_bytes": 31205
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/multithreadtest.py",
+        "path_type": "hardlink",
+        "sha256": "6013d3cea9c8576d01f81826aae72350598caa03a7edae63df06a63657a2057b",
+        "sha256_in_prefix": "6013d3cea9c8576d01f81826aae72350598caa03a7edae63df06a63657a2057b",
+        "size_in_bytes": 2676
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_callback_example.py",
+        "path_type": "hardlink",
+        "sha256": "bc8b59e50c984214f99ff3cf8972f1a740507dd52b3018008052c52b2b1f00cd",
+        "sha256_in_prefix": "bc8b59e50c984214f99ff3cf8972f1a740507dd52b3018008052c52b2b1f00cd",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_callback_example2.py",
+        "path_type": "hardlink",
+        "sha256": "b0724ccb223a8c5fb7727c648ff68737bbbd0e40d31e5cd7f3b8d96738993051",
+        "sha256_in_prefix": "b0724ccb223a8c5fb7727c648ff68737bbbd0e40d31e5cd7f3b8d96738993051",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_callback_listener_example.py",
+        "path_type": "hardlink",
+        "sha256": "438ef51d1c8d3f7cfcf6dae7322efd5075fe796ba896e83ce1e66f7f0cd22418",
+        "sha256_in_prefix": "438ef51d1c8d3f7cfcf6dae7322efd5075fe796ba896e83ce1e66f7f0cd22418",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_callback_recursive_example.py",
+        "path_type": "hardlink",
+        "sha256": "4e25736f5a3f3f52026ecc692da70fdccd536b8ecaa86fe74b4e8a1fec1f575c",
+        "sha256_in_prefix": "4e25736f5a3f3f52026ecc692da70fdccd536b8ecaa86fe74b4e8a1fec1f575c",
+        "size_in_bytes": 2024
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_example.py",
+        "path_type": "hardlink",
+        "sha256": "9e3ec6c4ce1825bac0495ccc5dd9d662f2ecaf8d96674adf82468bfa1fc3027e",
+        "sha256_in_prefix": "9e3ec6c4ce1825bac0495ccc5dd9d662f2ecaf8d96674adf82468bfa1fc3027e",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/py4j_signals_test.py",
+        "path_type": "hardlink",
+        "sha256": "ff10f6fd937ec4833bf213742373d78e6d6fdc2abb40a9e9502fee33db40925a",
+        "sha256_in_prefix": "ff10f6fd937ec4833bf213742373d78e6d6fdc2abb40a9e9502fee33db40925a",
+        "size_in_bytes": 6428
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/tests/signals_test.py",
+        "path_type": "hardlink",
+        "sha256": "f63b33b41e0cc3f90cdbc38cece5a55cce3a5ad5d8a93f3b47303dbff8a89d56",
+        "sha256_in_prefix": "f63b33b41e0cc3f90cdbc38cece5a55cce3a5ad5d8a93f3b47303dbff8a89d56",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "lib/python3.6/site-packages/py4j/version.py",
+        "path_type": "hardlink",
+        "sha256": "ad685d5b28d617d40461d3cdd08591e633e0df85cb648b32c5c20c6f0e6d6604",
+        "sha256_in_prefix": "ad685d5b28d617d40461d3cdd08591e633e0df85cb648b32c5c20c6f0e6d6604",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "share/py4j/py4j0.10.6.jar",
+        "path_type": "hardlink",
+        "sha256": "da5a6f60679f417757df26a618272c99143d58bb3bac24f3b6e4d85eb71c58ce",
+        "sha256_in_prefix": "da5a6f60679f417757df26a618272c99143d58bb3bac24f3b6e4d85eb71c58ce",
+        "size_in_bytes": 115175
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 245693,
+  "subdir": "osx-64",
+  "timestamp": 1505443702121,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/py4j-0.10.6-py36hde0549a_1.tar.bz2",
+  "version": "0.10.6"
+}
